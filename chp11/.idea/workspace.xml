@@ -14,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="starbuzz.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starbuzz/starbuzz.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/absolute/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="561">
+              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/starbuzz/index.html">
+      <file leaf-file-name="starbuzz.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/absolute/starbuzz.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1499">
-              <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+            <state relative-caret-position="330">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -39,6 +39,8 @@
       <list>
         <option value="$PROJECT_DIR$/starbuzz/starbuzz.css" />
         <option value="$PROJECT_DIR$/starbuzz/index.html" />
+        <option value="$PROJECT_DIR$/absolute/index.html" />
+        <option value="$PROJECT_DIR$/absolute/starbuzz.css" />
       </list>
     </option>
   </component>
@@ -69,6 +71,11 @@
             <path>
               <item name="chp11" type="b2602c69:ProjectViewProjectNode" />
               <item name="chp11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chp11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chp11" type="462c0819:PsiDirectoryNode" />
+              <item name="absolute" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -113,12 +120,12 @@
       <updated>1543382370550</updated>
       <workItem from="1543382371644" duration="4207000" />
       <workItem from="1545371394373" duration="27000" />
-      <workItem from="1545371427841" duration="1258000" />
+      <workItem from="1545371427841" duration="5548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5492000" />
+    <option name="totallyTimeSpent" value="9782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="511" width="1857" height="1092" extended-state="6" />
@@ -193,7 +200,7 @@
     <entry file="file://$PROJECT_DIR$/starbuzz/starbuzz.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -201,6 +208,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1499">
           <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/absolute/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/absolute/starbuzz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
