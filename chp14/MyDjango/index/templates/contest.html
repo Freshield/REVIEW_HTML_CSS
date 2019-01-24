@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter the Contest</title>
+</head>
+<body>
+<form action="contest_res" method="post">
+    {% csrf_token %}
+    <p>type in name to enter the contest<br>
+        First name: <input type="text" name="firstname" value=""> <br>
+        Last name: <input type="text" name="lastname" value=""> <br>
+        <input type="submit">
+    </p>
+
+</form>
+
+</body>
+</html>
