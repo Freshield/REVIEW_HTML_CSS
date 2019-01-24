@@ -22,5 +22,6 @@ from . import views
 urlpatterns = [
     path('', views.index),
     path('index.html', views.index),
-    path('contest_res', views.contest_res)
+    path('contest_res', views.contest_res),
+    path('coffee', views.coffee)
 ]

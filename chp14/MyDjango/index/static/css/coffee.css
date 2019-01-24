@@ -1,0 +1,22 @@
+form {
+    display: table;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}
+
+div.tableRow {
+    display: table-row;
+}
+
+div.tableRow p{
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+}
+
+p.heading {
+    font-weight: bold;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <title>Bean Machine</title>
+        <link rel="stylesheet" href="{% static "css/coffee.css" %}">
+</head>
+<body>
+<h1>Bean Machine</h1>
+<h2>Fill the form</h2>
+<form action="coffee" method="post">
+    {% csrf_token %}
+    <div class="tableRow">
+        <p>
+        Choose your beans:
+        <select name="beans">
+            <option value="HB">HB</option>
+            <option value="SGB">SGB</option>
+            <option value="OG">OG</option>
+            <option value="KY">KY</option>
+        </select>
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+        Type: <br>
+        <input type="radio" name="beantype" value="whole"> Whole <br>
+        <input type="radio" name="beantype" value="ground" checked> Ground
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+        Number of bags: <input type="number" name="bags" min="1" max="10">
+        </p>
+    </div>
+    <div class="tableRow label">
+        <p>
+        Must arrive by date: <input type="date" name="date">
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>
+        Extras:<br>
+        <input type="checkbox" name="extras[]" value="giftwrap">Gift wrap<br>
+        <input type="checkbox" name="extras[]" value="catalog" checked>Include catalog
+        </p>
+    </div>
+    <div class="tableRow">
+        <p class="heading">Ship to: </p>
+        <p></p>
+    </div>
+    <div class="tableRow">
+        <p>Name:</p>
+        <p><input type="text" name="name"> </p>
+    </div>
+    <div class="tableRow">
+        <p>Address:</p>
+        <p><input type="text" name="address"> </p>
+    </div>
+    <div class="tableRow">
+        <p>City:</p>
+        <p><input type="text" name="city"> </p>
+    </div>
+    <div class="tableRow">
+        <p>State:</p>
+        <p><input type="text" name="state"> </p>
+    </div>
+    <div class="tableRow">
+        <p>Zip:</p>
+        <p><input type="text" name="zip"> </p>
+    </div>
+    <div class="tableRow">
+        <p>Phone:</p>
+        <p><input type="tel" name="phone"> </p>
+    </div>
+    <div class="tableRow">
+        <p>Customer Comments:</p>
+        <p><textarea name="comments"></textarea> </p>
+    </div>
+    <div class="tableRow">
+        <p></p>
+        <p>
+        <input type="submit" value="Order Now">
+        </p>
+    </div>
+
+
+
+</form>
+
+</body>
+</html>
