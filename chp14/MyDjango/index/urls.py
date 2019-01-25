@@ -23,5 +23,6 @@ urlpatterns = [
     path('', views.index),
     path('index.html', views.index),
     path('contest_res', views.contest_res),
-    path('coffee', views.coffee)
+    path('coffee', views.coffee),
+    path('sample', views.sample)
 ]

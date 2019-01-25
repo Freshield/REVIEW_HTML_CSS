@@ -19,3 +19,10 @@ def coffee(request):
         return HttpResponse(json.dumps(dict(request.POST), indent=4))
     else:
         return render(request, 'coffee.html')
+
+def sample(request):
+    if request.method == 'POST':
+        print(dict(request.POST))
+        return HttpResponse(json.dumps(dict(request.POST), indent=4))
+    else:
+        return render(request, 'styledform.html')
