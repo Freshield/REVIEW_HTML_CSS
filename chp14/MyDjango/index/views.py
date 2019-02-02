@@ -26,3 +26,10 @@ def sample(request):
         return HttpResponse(json.dumps(dict(request.POST), indent=4))
     else:
         return render(request, 'styledform.html')
+
+def test_http(request):
+    if request.method == 'POST':
+        print(dict(request.POST))
+        return HttpResponse("success")
+    else:
+        return HttpResponse('get')

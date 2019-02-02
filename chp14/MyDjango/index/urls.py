@@ -24,5 +24,6 @@ urlpatterns = [
     path('index.html', views.index),
     path('contest_res', views.contest_res),
     path('coffee', views.coffee),
-    path('sample', views.sample)
+    path('sample', views.sample),
+    path('test_http', views.test_http)
 ]
